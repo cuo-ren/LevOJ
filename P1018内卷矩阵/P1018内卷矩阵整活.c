@@ -2,7 +2,7 @@
 
 int main() {
 	int n;
-	while (scanf_s("%d", &n) != EOF) {
+	while (scanf("%d", &n) != EOF) {
 		getchar();
 		if (n == 1) {
 			printf("1\n");
