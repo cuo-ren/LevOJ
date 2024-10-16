@@ -4,7 +4,7 @@ int main()
 {
 	int m, n, a, b;
 
-	while (scanf_s("%d%d", &m, &n) != EOF) {
+	while (scanf("%d%d", &m, &n) != EOF) {
 		getchar();
 		b = (n - 2 * m) / 2;
 		a = (4 * m - n) / 2;
@@ -15,5 +15,4 @@ int main()
 			printf("-1 -1\n");
 		}
 	}
-
 }
