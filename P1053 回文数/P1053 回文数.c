@@ -3,7 +3,7 @@
 int main()
 {
 	int n, a, b;
-	while (scanf_s("%d", &n) != EOF) {
+	while (scanf("%d", &n) != EOF) {
 		a = n;
 		b = 0;
 		while (n) {
@@ -18,6 +18,4 @@ int main()
 			printf("no\n");
 		}
 	}
-
-
 }
