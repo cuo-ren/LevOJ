@@ -4,7 +4,7 @@ int main()
 {
 	int a, b, c, x, y;
 	
-	while (scanf_s("%d%d", &a, &b) != EOF) {
+	while (scanf("%d%d", &a, &b) != EOF) {
 		getchar();
 		x = a;
 		y = b;
