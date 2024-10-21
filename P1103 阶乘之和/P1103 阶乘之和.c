@@ -4,7 +4,7 @@ int main()
 {
 	int m, n, x;
 
-	while (scanf_s("%d", &n) != EOF) {
+	while (scanf("%d", &n) != EOF) {
 		x = 1;
 		getchar();
 		if (n == 0) {
@@ -20,6 +20,4 @@ int main()
 		}
 		printf("%d\n", x);
 	}
-
-
 }
