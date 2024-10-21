@@ -3,7 +3,7 @@
 int main()
 {
 	int n;
-	while (scanf_s("%d", &n) != EOF) {
+	while (scanf("%d", &n) != EOF) {
 		getchar();
 		switch (n)
 		{
