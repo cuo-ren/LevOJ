@@ -3,7 +3,8 @@
 int main()
 {
 	int x, y;
-	scanf_s("%d%d", &x, &y);
+	scanf("%d%d", &x, &y);
+	
 	if (x > y) {
 		printf("x>y");
 	}
@@ -15,6 +16,4 @@ int main()
 	{
 		printf("x<y");
 	}
-
-
 }
