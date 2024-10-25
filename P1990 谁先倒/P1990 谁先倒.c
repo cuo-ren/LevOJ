@@ -3,13 +3,13 @@
 int main()
 {
 	int m1, m2, n1, n2, N, a1, a2, b1, b2;
-	m2 = 0;//A╨хак╪╦╠╜
-	n2 = 0;//B╨хак╪╦╠╜
+	m2 = 0;//Aб╨ц┬ц│ц▀б╪б╦б╠б╜
+	n2 = 0;//Bб╨ц┬ц│ц▀б╪б╦б╠б╜
 
-	scanf_s("%d%d", &m1, &n1);
+	scanf("%d%d", &m1, &n1);
 	m1++;
 	n1++;
-	scanf_s("%d", &N);
+	scanf("%d", &N);
 
 	for (int i = 1; i <= N; i++) {
 		scanf_s("%d%d%d%d", &a1, &a2, &b1, &b2);
