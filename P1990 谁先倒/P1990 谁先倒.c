@@ -12,7 +12,7 @@ int main()
 	scanf("%d", &N);
 
 	for (int i = 1; i <= N; i++) {
-		scanf_s("%d%d%d%d", &a1, &a2, &b1, &b2);
+		scanf("%d%d%d%d", &a1, &a2, &b1, &b2);
 		if ((a2 == a1 + b1) && (b2 == a1 + b1)) {
 			continue;
 		}
