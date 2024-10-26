@@ -5,7 +5,7 @@ int main()
 	int a, b, c, x, y;
 	
 	while (scanf("%d%d", &a, &b) != EOF) {
-		getchar();
+
 		x = a;
 		y = b;
 		if (a < b) {
