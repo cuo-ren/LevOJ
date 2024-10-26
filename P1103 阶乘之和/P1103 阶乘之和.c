@@ -6,7 +6,7 @@ int main()
 
 	while (scanf("%d", &n) != EOF) {
 		x = 1;
-		getchar();
+
 		if (n == 0) {
 			printf("1\n");
 			continue;
