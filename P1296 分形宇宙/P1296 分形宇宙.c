@@ -13,9 +13,6 @@ void func(int a[][81], int size, int x, int y) {
 	func(a, size - 1, x + pow(3, size - 1) / 3 * 2, y + pow(3, size - 1) / 3 * 2);
 }
 
-
-
-
 int main() {
 	int a[81][81] = { 0 };
 	int n;
@@ -32,5 +29,4 @@ int main() {
 		}
 		printf("\n");
 	}
-
 }
