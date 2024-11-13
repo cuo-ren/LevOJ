@@ -16,7 +16,6 @@ int main()
 		}
 	}
 
-
 	int flag = 0;
 	for (int i = 0; i < 99999; i++) {
 		if (a[i] == 0) {
@@ -31,5 +30,4 @@ int main()
 			flag = 1;
 		}
 	}
-
 }
