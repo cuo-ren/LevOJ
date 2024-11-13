@@ -17,7 +17,4 @@ int main()
 			printf("%d %d\n", i + 1, a[i]);
 		}
 	}
-
-
-
 }
