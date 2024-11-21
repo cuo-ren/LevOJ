@@ -23,5 +23,4 @@ int main()
 		}
 		printf("\n");
 	}
-
 }
