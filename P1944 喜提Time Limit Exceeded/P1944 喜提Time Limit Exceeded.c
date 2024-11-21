@@ -4,7 +4,6 @@ char a[100][20001];
 
 int main()
 {
-	
 	int index[100];
 	int m, n;
 	int x, y, t;
