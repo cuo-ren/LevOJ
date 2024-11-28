@@ -27,6 +27,5 @@ int main()
 			y += num[j--];
 		}
 	}
-
 	printf("%d %d", x, y);
 }
